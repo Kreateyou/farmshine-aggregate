@@ -1,7 +1,7 @@
 version: '2'
 services:
   odk:
-    image: kharatsa/odkaggregate:latest
+    image: Kreateyou/farmshine-collect:latest
     container_name: odk_aggregate
     ports:
       - "8080:${ODK_PORT}"
